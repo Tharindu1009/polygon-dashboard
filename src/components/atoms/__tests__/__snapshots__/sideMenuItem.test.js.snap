@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches sideMenuItem snapshot 1`] = `
+<div
+  className="sideMenuItem"
+  data-testid="sideMenuItem"
+  onClick={[Function]}
+>
+  <svg
+    aria-hidden={true}
+    className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+    data-testid="dashboardMenuItem"
+    focusable="false"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z"
+    />
+  </svg>
+  <div
+    className="title"
+  >
+    Dashboard
+  </div>
+</div>
+`;

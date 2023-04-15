@@ -1,0 +1,15 @@
+@import '../../../../../App.scss';
+
+.doubleBarChart {
+    background-color: $white;
+    border-radius: 8px;
+    padding: 24px;
+
+    @media (max-width: #{$breakpoint-small - 1}) {
+        max-width: 275px;
+    }
+
+    @media screen and (min-width: $breakpoint-small) {
+        height: 358px;
+    }
+}

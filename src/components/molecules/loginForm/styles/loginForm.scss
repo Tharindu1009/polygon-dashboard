@@ -1,0 +1,34 @@
+@import '../../../../App.scss';
+
+.loginForm {
+    padding: 40px 25px 40px 25px;
+
+    .form-control {
+        margin-bottom: 5px;
+    }
+
+    .pwd-label {
+        text-align: right;
+        padding-top: 7px;
+    }
+
+    .btn-wrapper {
+        margin-top: 10px;
+    }
+
+    .reg-wrapper {
+        display: flex;
+    }
+
+    .link-wrapper {
+        margin-left: 6px;
+    }
+
+    .alert-wrapper {
+        margin-top: 7px;
+    }
+
+    @media screen and (min-width: $breakpoint-small) {
+        width: 100%;
+    }
+}

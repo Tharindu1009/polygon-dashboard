@@ -1,0 +1,36 @@
+@import '../../../../../App.scss';
+
+.growthCard {
+    display: flex;
+    background-color: $white;
+    border-radius: 8px;
+    padding: 24px;
+
+    .column {
+        display: block;
+        padding: 2px;
+
+        .title{
+            color: $black;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 22px;
+        }
+
+        .count{
+            color: $black;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 22px;
+        }
+
+        .growth-stat-wrapper{
+            margin-top: 10px;
+        }
+        
+        @media screen and (min-width: $breakpoint-small) {
+            width: 50px;
+            width: 100%;
+        }
+    }
+}

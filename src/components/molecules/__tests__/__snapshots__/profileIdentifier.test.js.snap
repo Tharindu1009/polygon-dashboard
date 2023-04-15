@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches ProfileIdentifier snapshot 1`] = `
+<div
+  className="profileIdentifier"
+  data-testid="profileIdentifier"
+>
+  <div
+    className="profile-name"
+  >
+    user1009
+  </div>
+  <img
+    alt="Profile"
+    className="image"
+    src="user.png"
+  />
+</div>
+`;

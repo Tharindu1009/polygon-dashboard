@@ -1,0 +1,15 @@
+@import '../../../../App.scss';
+
+.sideMenuItem {
+    display: flex;
+    background-color: $white;
+    border-bottom: 1px solid $gray;
+    padding: 20px 0px 0px 20px;
+    color: $black;
+    cursor: pointer;
+    height: 45px;
+
+    .title {
+        padding-left: 10px;
+    }
+}

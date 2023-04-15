@@ -1,0 +1,13 @@
+@import '../../../../App.scss';
+
+.loginSideBanner {
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .image {
+        width: 176px;
+        height: 186px;
+    }
+}

@@ -1,0 +1,17 @@
+@import '../App.scss';
+
+.login {
+    background-color: $gray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .login-container {
+        background-color: $white;
+        @media screen and (min-width: $breakpoint-small) {
+            width: 600px;
+            height: 320px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+@import '../../../../../App.scss';
+
+.growthIndicator {
+    display: flex;
+
+    .icon{
+        margin-right: 5px;
+
+        &__up {
+            color: $green;
+        }
+        
+        &__down {
+            color: $red;
+        }
+    }
+
+    .content{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
+        display: flex;
+
+        .descrtption {
+            margin-left: 5px;
+        }
+    }
+}

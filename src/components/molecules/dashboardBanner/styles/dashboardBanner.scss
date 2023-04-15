@@ -1,0 +1,61 @@
+@import '../../../../App.scss';
+
+.dashboardBanner {
+    display: flex;
+    flex-direction: column;
+
+    .description-wrapper {
+        order: 2;
+
+        .description-title {
+            font-weight: 700;
+            font-size: 18px;
+            color: $black;
+            margin-bottom: 15px;
+        }
+
+        .description-content {
+            font-weight: 400;
+            font-size: 12px;
+            color: $black-gray;
+            line-height: 22px;
+            margin-bottom: 10px;
+        }
+
+        @media screen and (min-width: $breakpoint-small) {
+            order: 1;
+            padding: 24px;
+        }
+    }
+
+    .image-wrapper {
+        order: 1;
+
+        @media screen and (min-width: $breakpoint-small) {
+            order: 2;
+        }
+
+        .image {
+            @media (max-width: #{$breakpoint-small - 1}) {
+                max-width: 280px;
+            }
+
+            @media screen and (min-width: $breakpoint-small) {
+                width: 348px;
+                height: fit-content;
+            }
+
+        }
+
+    }
+
+    @media (max-width: #{$breakpoint-small - 1}) {
+        padding: 10px;
+        max-width: 325px;
+    }
+
+    @media screen and (min-width: $breakpoint-medium) {
+        flex-direction: row;
+        height: 225px;
+    }
+}

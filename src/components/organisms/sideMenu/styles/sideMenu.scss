@@ -1,0 +1,50 @@
+@import '../../../../App.scss';
+
+.sidemenu {
+    top: 72px;
+    left: 0;
+    display: none;
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+
+    &.open {
+        display: block;
+        width: 100%;
+        transform: translateX(0);
+    }
+
+    .support-label {
+        color: $dark-gray;
+        padding: 10px 0px 0px 25px;
+    }
+
+    .button-wrapper {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    @media (max-width: #{$breakpoint-small - 1}) {
+        height: 90vh;
+    }
+
+    @media screen and (min-width: $breakpoint-small) {
+        display: block;
+        min-width: 200px;
+        transform: translateX(0);
+    }
+
+}
+
+.hamburger {
+    cursor: pointer;
+
+    &:hover {
+        color: #ccc;
+    }
+
+    @media screen and (min-width: $breakpoint-small) {
+        display: none;
+    }
+}

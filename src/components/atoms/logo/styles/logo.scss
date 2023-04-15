@@ -1,0 +1,24 @@
+@import '../../../../App.scss';
+
+.logo {
+    background-color: $gray;
+    height: 72px;
+
+    &__default {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+    }
+
+    &__small {
+        text-align: center;
+        background-color: $white;
+        width: 220px;
+    }
+
+    .image {
+        width: 104px;
+        height: 37px;
+    }
+}

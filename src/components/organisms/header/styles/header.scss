@@ -1,0 +1,64 @@
+@import '../../../../App.scss';
+
+.header {
+    display: none;
+    height: 72px;
+    width: 100%;
+    border-bottom: 2px solid $gray;
+
+    .element-wrapper {
+        width: 200px;
+    }
+
+    .element-wrapper {
+        display: flex;
+        padding: 18px 48px 18px 48px;
+        width: 100%;
+
+        .search-wrapper {
+            width: 261px;
+        }
+
+        .profile {
+            display: flex;
+            margin-left: auto;
+            order: 2;
+        }
+    }
+
+    @media screen and (min-width: $breakpoint-small) {
+        display: flex;
+    }
+}
+
+.hamberg-header {
+    display: flex;
+    padding: 25px;
+    height: 32px;
+
+    .close-icon {
+        display: none;
+
+        &__open {
+            display: block;
+        }
+    }
+
+    .hamburg-icon {
+        margin-right: 5px;
+        cursor: pointer;
+        
+        &:hover {
+            color: #ccc;
+        }
+
+        &__open {
+            display: none;
+        }
+    }
+
+    @media screen and (min-width: $breakpoint-small) {
+        display: none;
+    }
+}
+

@@ -1,0 +1,15 @@
+@import '../App.scss';
+
+.home-container {
+    display: flex;
+
+    .content {
+        &__show {
+            display: block;
+        }
+
+        &__hide {
+            display: none;
+        }
+    }
+}

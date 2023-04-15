@@ -1,0 +1,14 @@
+@import '../../../../App.scss';
+
+.supportLink {
+    display: flex;
+    background-color: $white;
+    padding: 20px 0px 0px 40px;
+    color: $black;
+    cursor: pointer;
+    height: 30px;
+
+    .title {
+        padding-left: 10px;
+    }
+}

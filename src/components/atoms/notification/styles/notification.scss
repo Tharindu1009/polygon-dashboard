@@ -1,0 +1,19 @@
+@import '../../../../App.scss';
+
+.notification {
+    position: relative;
+    padding-top: 7px;
+
+    .icon {
+        color: $dark-gray;
+    }
+
+    .online-indicator {
+        position: absolute;
+        right: 3px;
+        background-color: $red;
+        height: 6px;
+        width: 6px;
+        border-radius: 50%;
+    }
+}

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches DashboardBanner snapshot 1`] = `
+<div
+  className="dashboardBanner"
+  data-testid="dashboardBanner"
+>
+  <div
+    className="description-wrapper"
+  >
+    <div
+      className="description-title"
+    >
+      Welcome to your dashboard!
+    </div>
+    <div
+      className="description-content"
+    >
+      Try our new Admin Dashboard Template, 
+build with live Ant-Design components. Customize it to your needs and release to production!
+    </div>
+  </div>
+  <div
+    className="image-wrapper"
+  >
+    <img
+      alt="Dashboard Banner"
+      className="image"
+      src="dashboardBanner.png"
+    />
+  </div>
+</div>
+`;

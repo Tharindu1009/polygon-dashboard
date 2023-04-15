@@ -1,0 +1,12 @@
+@import '../../../../App.scss';
+
+.textBox {
+    margin-bottom: 25px;
+
+    &__search {
+        background-color: $gray;
+        .MuiOutlinedInput-root {
+            border-radius: 18px !important;
+        }
+    }
+}

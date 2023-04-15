@@ -1,0 +1,20 @@
+@import '../../../../../App.scss';
+
+.donutChart {
+    background-color: $white;
+    border-radius: 8px;
+    padding: 24px;
+
+    .chart-header {
+        display: flex;
+
+        .indicator-wrapper {
+            margin-left: auto;
+            order: 2;
+        }
+    }
+
+    @media screen and (min-width: $breakpoint-small) {
+        height: 358px;
+    }
+}

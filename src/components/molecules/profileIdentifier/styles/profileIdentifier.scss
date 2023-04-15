@@ -1,0 +1,15 @@
+@import '../../../../App.scss';
+
+.profileIdentifier {
+    display: flex;
+
+    .profile-name{
+        padding: 6px 15px 0px 0px;
+    }
+
+    .image {
+        margin-left: 5px;
+        width: 40px;
+        height: 40px;
+    }
+}
